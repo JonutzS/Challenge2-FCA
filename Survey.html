@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SURVEY</title>
+</head>
+<body>
+	
+	<h1 id="title">SURVEY</h1>
+	
+
+	<p id="description">
+		Why do you want to be better?
+	</p>
+
+	<form id="survey-form">
+
+		<label for="name" id="name-label">Name</label><br>
+		<input type="text" 
+		name="Name" 
+		id="name" required="" 
+		placeholder="Enter your name"><br><br>
+
+		<label for="email" id="email-label">Email</label><br>
+		<input type="email" 
+		name="Email" 
+		id="email" 
+		required="" 
+		placeholder="Enter your email" 
+		pattern=".+@globex.com"><br><br>
+		
+
+		<label for="number" id="number-label">Age</label><br>
+		<input type="number"
+		name="Age" 
+		id="number" 
+		required="" 
+		placeholder="Enter your age" 
+		min="18"
+		max="65">
+		<br>
+
+		<p>Ocupatie</p>
+
+		<input type="radio" name="ocupation" value="student">Student<br>
+		<input type="radio" name="ocupation" value="full-time job">Full-time job<br>
+		<input type="radio" name="ocupation" value="part-time job">Part-time job<br>
+		<input type="radio" name="ocupation" value="none">None<br>
+		<br>
+		<br>
+		<p>How likely it is to do your job, if we hire you?</p>
+
+		<select id="dropdown">
+			<option value="Very Likely">Very Likely</option>
+			<option value="Likely">Likely</option>
+			<option value="Not Likely">Not Likely</option>
+			<option value="Definitely not">Definitely not</option>
+
+		</select>
+		<br>
+		<br>
+		<p>Cum vei ajunge la noi? (Check all that apply)</p>
+
+		<input type="checkbox" name="vehicle1" value="Bike"> I have a bike<br>
+		<input type="checkbox" name="vehicle2" value="pe Jos"> Pe jos. Locuiesc aproape.<br>
+		<input type="checkbox" name="vehicle3" value="public transport"> Autobuz/metrou.<br>
+		<input type="checkbox" name="vehicle4" value="Automobil"> Masina Personala.<br>
+		<input type="checkbox" name="vehicle5" value="Altfel"> Alt mod.<br>
+		<br>
+		<p>Alte comentarii sau sugestii?</p>
+		<textarea></textarea>
+		<br>
+		<input type="Submit" value="Submit" id="submit">
+
+		
+	</form>
+
+</body>
+</html>
